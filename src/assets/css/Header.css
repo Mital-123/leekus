@@ -1,0 +1,184 @@
+/* header */
+body {
+    margin: 0;
+  }
+  .quaheader_design:hover{
+  background-color: var(--color--) !important;
+  z-index: 40 !important;
+  }
+  header {
+    padding: 10px;
+   font-family:  "Playfair Display", serif !important;
+  }
+  
+  #headermaincss nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  #headermaincss nav ul li {
+    display:inline-block;
+     position: relative;
+     cursor: pointer !important;
+
+  }
+  
+  #headermaincss nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    color: white !important;
+
+    
+    
+  }
+  
+  #headermaincss nav ul li:hover > ul {
+    display: block;
+    border-top: 2px solid white;
+    left: 0;
+    border-radius: 0px;
+  }
+  
+  #headermaincss .dropdown-menu {
+    position: absolute;
+    background-color: #ffffff;
+    top: 100%;
+  }
+  
+  #headermaincss .dropdown-menu li {
+    display: block;
+
+    
+  }
+  
+  #headermaincss .dropdown-menu li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black !important;
+
+  
+  }
+  
+  #headermaincss .dropdown-menu li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  #headermaincss .dropdown {
+    position: relative;
+  }
+  
+  #headermaincss .dropdown-menu .dropdown-menu {
+    left: 100%;
+    top: 0;
+  }
+  #headermaincss .toggle-menu {
+      display: none;
+      text-align: right;
+      cursor: pointer;
+      color: #fff;
+      padding: 10px 20px;
+    }
+  @media screen and (max-width: 991px) {
+    header{
+      padding-top: 0;
+    }
+    #headermaincss nav ul {
+      text-align: center;
+      display: none; 
+    }
+  
+    #headermaincss nav ul.open {
+      display: block;
+    }
+  
+    #headermaincss nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    #headermaincss .dropdown-menu {
+      position: static;
+      display: none;
+      background-color: transparent;
+    }
+  
+    #headermaincss .dropdown-menu li {
+      display: block;
+    }
+  
+    #headermaincss .dropdown-menu li:hover {
+      background-color: transparent;
+    }
+  
+    #headermaincss .toggle-menu {
+      display: block;
+      text-align: right;
+      cursor: pointer;
+      color: #fff;
+      padding: 10px 20px;
+    }
+    .slider_imageset{
+      margin-top: -66px !important;
+    }
+  }
+  @media screen and (max-width: 600px){
+   .imghead{
+      margin-left: 40px !important;
+    }
+  }
+  @media screen and (max-width: 700px){
+   .slider_imageset{
+      margin-top: -59px !important;
+    }
+  }
+  @media screen and (max-width: 500px){
+    .slider_imageset{
+      margin-top: -55px !important;
+    }
+  }
+  @media screen and (max-width: 995px){
+    header{
+      padding-top: 0 !important;
+    }
+  }
+  @media screen and (max-width: 300px){
+    .slider_imageset{
+      margin-top: -51px !important;
+    }
+  }
+  @media screen and (max-width: 400px){
+    .slider_imageset{
+      margin-top: -53px !important;
+    }
+  }
+  #headermaincss .offcanvasdesign{
+  text-decoration: none !important;
+  color: gray;
+  }
+  #headermaincss .offcanvasdesign:hover{
+  color: black;
+  }
+ .searchinput_focus:focus {
+    outline: none;
+    border: none;
+  }
+  .searchmodal_designs .modal-dialog {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  }
+  #headermaincss .hoverheader_menu{
+  border-bottom: 2px solid transparent;
+  }
+  #headermaincss .hoverheader_menu:hover{
+  border-bottom: 2px solid white;
+  }
+   .slider_imageset{
+  margin-top: -67px;
+  }
+  
+  
+
+  
